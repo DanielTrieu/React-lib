@@ -3,4 +3,4 @@
 #git commit -a -m "update from vmware"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/strapi_ssh
-git push --quiet
+git push origin main
